@@ -26,6 +26,11 @@ h1 {font-size: 60px; }
 h2 {font-size: 30px;}
 p {font-size: 20px; }
 
+/* Specifying general link color */
+a {
+    color: rgb(255, 230, 0);
+}
+
 /* Setting up buttons */
 .button {
     background-color: rgb(255, 230, 0); /* Set button background color to yellow */
@@ -84,3 +89,24 @@ iframe {
     margin: 50px 0px 0px 0px;
     padding: 0px 0px 10px 0px;
   }
+
+/* CSS Box Model */
+.css-box-model-class {
+    border-width: 2px;
+    border-style: solid;
+    /* Adding margins outside the box, specify in clockwise order: top, right, bottom, left. */
+    margin: 150px 0px 0px 0px;
+    /* Adding padding inside the box */
+    padding: 30px;
+  }
+
+/* Adding in id attributes so everything in the div section with id "Footer" will be yellow */
+  #Footer {
+    color: rgb(255, 230, 0);
+  }
+
+/* Adding in id attributes so everything in the div section with id "Clarification" will be yellow */
+  #Clarification {
+    color: rgb(255, 230, 0);
+  }
+  
