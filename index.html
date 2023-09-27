@@ -29,8 +29,8 @@
             <h1>Welcome to MusicUnited</h1>
 
             <img align ="right"
-            width="500px"
-            height="500px"
+            width="42%"
+            height="42%"
             src="/Users/SydneyMaiKeller/Desktop/SoftwareEngineering/record_graphic.png"
             alt="Image of a cartoon record"
             />
@@ -66,7 +66,9 @@
 
                 <!-- Inserting iframe to import index4.html page as a mock up of 
                     playlist rating visual on web -->
-                <iframe src="index5.html" name="playlist rating mockup" style='height: 700px; width: 1300px;' frameborder="0"></iframe>
+                <div class="container"> 
+                    <iframe class="responsive-iframe" src="index5.html" name="playlist rating mockup" height=100% frameborder="0"></iframe>
+                </div>
             </div>
 
             <div id="Find Soulmate">
@@ -80,8 +82,9 @@
                 </h2>
 
                 <!-- Using iframe to import index4.html page as example of what game could look like -->
-                <iframe src="index4.html" name="soulmate mockup" style='height: 700px; width: 1300px;' frameborder="0"></iframe>
-
+                <div class="container"> 
+                    <iframe class="responsive-iframe" src="index4.html" name="soulmate mockup" height=105% frameborder="0"></iframe>
+                </div>
 
                 <!-- Setting up a test quiz (note that it isn't functional now. It is suppose
                     to catch the users eye and suck them into trying out the quiz and then
@@ -117,7 +120,9 @@
 
         <!-- Putting in website clarification using iframe and CSS styles via id attribute -->
         <div id="Clarification">
-            <iframe src="index6.html" name="clarification message"></iframe>
+            <div class="container"> 
+                <iframe class="responsive-iframe" src="index6.html" name="clarification message" height=20% frameborder="0"></iframe>
+            </div>        
         </div>
     </body>
 </html>

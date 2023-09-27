@@ -82,12 +82,22 @@ a {
 }
 
 /* Styling iframe */
-iframe {
+.container {
+    position: relative;
     width: 100%;
-    height: 100%;
-    border: dotted;
-    margin: 50px 0px 0px 0px;
-    padding: 0px 0px 10px 0px;
+    padding: 0% 0% 56.25% 0%;
+  }
+  
+/* Making iframe responcive to browser size */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* Note: define height individually */
+    border: dashed;
   }
 
 /* CSS Box Model */
@@ -110,3 +120,6 @@ iframe {
     color: rgb(255, 230, 0);
   }
   
+  #record {
+    display: flex;
+  }
