@@ -8,46 +8,29 @@
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;900&display=swap');
 
-<<<<<<< HEAD
-/* The background of website should be dark blue with text white, set
-=======
 /* The background of website should be dark blue with text white, set 
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
     imported fonts to body text also setting margins */
 body {
     background-color: rgb(7, 7, 77);
     color: white;
-<<<<<<< HEAD
+  
+    font-family: 'Kanit', sans-serif;    
 
-    font-family: 'Kanit', sans-serif;
-
-=======
-    
-    font-family: 'Kanit', sans-serif;
-    
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
     margin-top: 50px;
     margin-right: 150px;
     margin-left: 80px;
 }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
 /* Specifying font size for text */
 h1 {font-size: 60px; }
 h2 {font-size: 30px;}
 p {font-size: 20px; }
 
-<<<<<<< HEAD
 /* Specifying general link color */
 a {
     color: rgb(255, 230, 0);
 }
 
-=======
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
 /* Setting up buttons */
 .button {
     background-color: rgb(255, 230, 0); /* Set button background color to yellow */
@@ -61,13 +44,9 @@ a {
 /* Setting up sign up button (first button on website) */
 .buttonSignUp {
     padding: 30px 150px;
-<<<<<<< HEAD
-    background-color: rgb(255, 230, 0);
-    color: rgb(7, 7, 77);
-=======
+
     background-color: rgb(255, 230, 0); 
     color: rgb(7, 7, 77); 
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
   }
 
 /* Setting links in sign up button */
@@ -79,20 +58,15 @@ a {
 
 /* Setting up button on index2.html page */
 .buttonReturnToMain {
-<<<<<<< HEAD
-    background-color: rgb(255, 230, 0);
-    color: rgb(7, 7, 77);
-=======
+
     background-color: rgb(255, 230, 0); 
     color: rgb(7, 7, 77); 
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
   }
 
 /* Setting links in index2.html button */
 .buttonReturnToMain a {
     color: rgb(7, 7, 77);
     text-decoration: none;
-<<<<<<< HEAD
 }
 
 /* Setting up button for intro to soulmate game page */
@@ -110,12 +84,22 @@ a {
 }
 
 /* Styling iframe */
-iframe {
+.container {
+    position: relative;
     width: 100%;
-    height: 100%;
-    border: dotted;
-    margin: 50px 0px 0px 0px;
-    padding: 0px 0px 10px 0px;
+    padding: 0% 0% 56.25% 0%;
+  }
+  
+/* Making iframe responcive to browser size */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* Note: define height individually */
+    border: dashed;
   }
 
 /* CSS Box Model */
@@ -137,7 +121,9 @@ iframe {
   #Clarification {
     color: rgb(255, 230, 0);
   }
-  
-=======
+    #record {
+    display: flex;
+  }
+
 }
->>>>>>> ae734c91f1207b71a5f0572fb4254dbb14945614
+

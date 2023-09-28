@@ -32,3 +32,4 @@ https://www.w3schools.com/css/css_font_size.asp - Changing font size
 https://www.tutorialspoint.com/html/html_email_links.htm - How to link our emails
 https://stackoverflow.com/questions/9975810/make-iframe-automatically-adjust-height-according-to-the-contents-without-using - Adjust size
 of iframe
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_85 - Create responsive iframe
