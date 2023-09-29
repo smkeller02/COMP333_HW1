@@ -11,19 +11,19 @@ Create a landing page for a music rating app
 Locally in a browser
 
 # Files:
-Driving.png
 LICENSE
 README.md
-index.html
-index2.html
-index3.html
-index4.html
-index5.html
-index6.html
-profile1.png
-profile2.png
-record_graphic.png
-style_sheet.css
+index.html - Main html file
+style_sheet.css - Main css file
+index2.html - Second page, just returns to first page, used for buttons on index.html
+index3.html - Third page, just returns to first page, used for bottons on index.html
+index4.html - Music Soulmate feature mockup
+index5.html - Mockup of playlist rating on page to use for iframe
+index6.html - Website purpose clarification statement used for iframe
+profile1.png - Image of profile 1 for soulmate game
+profile2.png - Image of profile 2 for soulmate game
+record_graphic.png - Front page graphic image
+Driving.png - Image of mockup of playlist rating
 
 # Sources cited:
 https://www.geeksforgeeks.org/how-to-align-image-in-html/ - Image manipulation
