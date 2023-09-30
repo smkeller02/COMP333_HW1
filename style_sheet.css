@@ -16,15 +16,15 @@ body {
   
     font-family: 'Kanit', sans-serif;    
 
-    margin-top: 50px;
     margin-right: 150px;
     margin-left: 80px;
 }
 
-/* Specifying font size for text */
-h1 {font-size: 60px; }
-h2 {font-size: 30px;}
-p {font-size: 20px; }
+/* Specifying font size/padding/alignment for text */
+h1 {font-size: 60px; padding-top: 30px;}
+h2 {font-size: 30px; text-align: center;}
+p {font-size: 20px; padding-top: 50px;}
+
 
 /* Specifying general link color */
 a {
@@ -87,11 +87,11 @@ a {
 .container {
     position: relative;
     width: 100%;
-    padding: 0% 0% 56.25% 0%;
+    padding: 0% 0% 55% 0%;
   }
   
 /* Making iframe responcive to browser size */
-  .responsive-iframe {
+.responsive-iframe {
     position: absolute;
     top: 0;
     left: 0;
