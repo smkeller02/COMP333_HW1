@@ -31,6 +31,24 @@ a {
     color: rgb(255, 230, 0);
 }
 
+#PlaylistRateImg {
+    width: 100%;
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 300px;
+    max-width : 100%;
+  }
+
+#ProfileImgs {
+    width: 45%;
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 200px;
+    max-width : 100%;
+  }
+
 /* Setting up buttons */
 .button {
     background-color: rgb(255, 230, 0); /* Set button background color to yellow */
@@ -87,7 +105,7 @@ a {
 .container {
     position: relative;
     width: 100%;
-    padding: 0% 0% 55% 0%;
+    padding: 0% 0% 56.25% 0%;
   }
   
 /* Making iframe responcive to browser size */
@@ -100,6 +118,8 @@ a {
     width: 100%;
     /* Note: define height individually */
     border: dashed;
+    min-width: 360px;
+    min-height: 150px;
   }
 
 /* CSS Box Model */
@@ -110,6 +130,7 @@ a {
     margin: 150px 0px 0px 0px;
     /* Adding padding inside the box */
     padding: 30px;
+    min-width: 300px;
   }
 
 /* Adding in id attributes so everything in the div section with id "Footer" will be yellow */
