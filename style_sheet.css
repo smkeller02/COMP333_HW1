@@ -16,8 +16,8 @@ body {
   
     font-family: 'Kanit', sans-serif;    
 
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 /* Specifying font size/padding/alignment for text */
@@ -157,4 +157,17 @@ a {
 .faq_answer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#Features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+#FAQ {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
