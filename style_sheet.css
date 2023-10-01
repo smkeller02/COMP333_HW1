@@ -29,6 +29,7 @@ p {font-size: 20px; padding-top: 50px;}
 /* Specifying general link color */
 a {
     color: rgb(255, 230, 0);
+    text-decoration: none;
 }
 
 #PlaylistRateImg {
@@ -143,3 +144,17 @@ a {
     color: rgb(255, 230, 0);
   }
 
+.faq_container {
+  background-color: white;
+  color: rgb(7, 7, 77);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.faq_answer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
