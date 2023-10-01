@@ -171,3 +171,27 @@ a {
   flex-direction: column;
   text-align: center;
 }
+
+.per_feature_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.per_feature_container.odd {
+  flex-direction: row;
+  text-align: left;
+}
+
+.per_feature_container.even {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.feature_text.odd {
+  text-align: left;
+}
+
+.feature_text.even {
+  text-align: right;
+}
