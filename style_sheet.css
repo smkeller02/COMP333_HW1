@@ -22,7 +22,7 @@ body {
 
 /* Specifying font size/padding/alignment for text */
 h1 {font-size: 60px; padding-top: 30px;}
-h2 {font-size: 30px; text-align: center;}
+h2 {font-size: 30px; } 
 p {font-size: 20px; padding-top: 50px;}
 
 
@@ -105,7 +105,7 @@ a {
 /* Styling iframe */
 .container {
     position: relative;
-    width: 100%;
+    width: 45%;
     padding: 0% 0% 56.25% 0%;
   }
   
@@ -119,8 +119,8 @@ a {
     width: 100%;
     /* Note: define height individually */
     border: dashed;
-    min-width: 360px;
-    min-height: 150px;
+    /* min-width: 360px;
+    min-height: 150px; */
   }
 
 /* CSS Box Model */
@@ -176,6 +176,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  gap: 12%;
 }
 
 .per_feature_container.odd {
@@ -194,4 +197,22 @@ a {
 
 .feature_text.even {
   text-align: right;
+}
+
+.quiz {
+  text-align: center;
+}
+
+.feature_text{
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature_text h1{
+  font-size: 30px;
+}
+
+.feature_text h2{
+  font-size: 20px;
 }
