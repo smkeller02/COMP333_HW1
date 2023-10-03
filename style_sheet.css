@@ -231,3 +231,37 @@ a {
   margin-top: 20px; 
   margin-bottom: 20px;
 }
+
+.navbar {
+  position: fixed;
+  background-color: rgb(7, 7, 77);
+  width: 90%;
+  overflow: hidden;
+  padding: 0;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: right;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.navbar li {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 18px;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+}
