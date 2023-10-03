@@ -16,20 +16,39 @@ body {
   
     font-family: 'Kanit', sans-serif;    
 
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 /* Specifying font size/padding/alignment for text */
 h1 {font-size: 60px; padding-top: 30px;}
-h2 {font-size: 30px; text-align: center;}
+h2 {font-size: 30px; } 
 p {font-size: 20px; padding-top: 50px;}
 
 
 /* Specifying general link color */
 a {
     color: rgb(255, 230, 0);
+    text-decoration: none;
 }
+
+#PlaylistRateImg {
+    width: 100%;
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 300px;
+    max-width : 100%;
+  }
+
+#ProfileImgs {
+    width: 45%;
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 200px;
+    max-width : 100%;
+  }
 
 /* Setting up buttons */
 .button {
@@ -86,8 +105,8 @@ a {
 /* Styling iframe */
 .container {
     position: relative;
-    width: 100%;
-    padding: 0% 0% 55% 0%;
+    width: 45%;
+    padding: 0% 0% 56.25% 0%;
   }
   
 /* Making iframe responcive to browser size */
@@ -100,6 +119,8 @@ a {
     width: 100%;
     /* Note: define height individually */
     border: dashed;
+    /* min-width: 360px;
+    min-height: 150px; */
   }
 
 /* CSS Box Model */
@@ -110,6 +131,7 @@ a {
     margin: 150px 0px 0px 0px;
     /* Adding padding inside the box */
     padding: 30px;
+    min-width: 300px;
   }
 
 /* Adding in id attributes so everything in the div section with id "Footer" will be yellow */
@@ -122,3 +144,90 @@ a {
     color: rgb(255, 230, 0);
   }
 
+.faq_container {
+  background-color: white;
+  color: rgb(7, 7, 77);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.faq_answer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+#FAQ {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.per_feature_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  gap: 12%;
+}
+
+.per_feature_container.odd {
+  flex-direction: row;
+  text-align: left;
+}
+
+.per_feature_container.even {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.feature_text.odd {
+  text-align: left;
+}
+
+.feature_text.even {
+  text-align: right;
+}
+
+.quiz {
+  text-align: center;
+}
+
+.feature_text{
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature_text h1{
+  font-size: 30px;
+}
+
+.feature_text h2{
+  font-size: 20px;
+}
+
+.separator {
+  border-top: 2px solid rgba(255,255,255,0.5); 
+  width: 100%;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.separator.feature {
+  border-top: 1px solid rgba(255,255,255,0.5); 
+  width: 100%;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
