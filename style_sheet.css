@@ -224,6 +224,7 @@ a {
   width: 100%;
   margin-top: 20px; 
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .separator.feature {
@@ -278,3 +279,8 @@ a {
     margin: 20px;
     padding: 10px;
   }
+
+#Welcome {
+  text-align: center;
+  align-items: center;
+}
