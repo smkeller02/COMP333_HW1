@@ -45,3 +45,4 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_iframe_
 https://web.dev/codelab-serve-images-webp/ - How to turn .png into .webp to improve image
 download speed
 https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap - Flex box wrap
+https://www.w3schools.com/howto/howto_js_topnav.asp - Navigation Bar Layout (CSS)
